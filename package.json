@@ -1,0 +1,14 @@
+{
+  "name": "node-portfolio",
+  "version": "1.0.0",
+  "description": "A Node.js portfolio website for DevOps deployment training",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Girish",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
