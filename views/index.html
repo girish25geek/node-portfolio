@@ -3,23 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <title>Girish's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <div class="container">
-    <img src="/images/profile.jpg" alt="Profile Picture" class="profile-pic">
-    <h1>Hello, I'm Girish 👋</h1>
-    <p>A passionate DevOps Engineer on a cloud-powered mission.</p>
-    <h2>Skills</h2>
-    <ul>
-      <li>Linux & Networking</li>
-      <li>FreeRADIUS / LDAP / Zabbix</li>
-      <li>Docker / NGINX / PostgreSQL</li>
-      <li>CI/CD & GitHub Actions</li>
-    </ul>
-    <h2>Contact</h2>
-    <p>Email: girish@example.com</p>
-    <p>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></p>
+    <div class="card">
+      <img src="/images/profile.jpg" alt="Profile Picture" class="profile-pic">
+      <h1>Hello, I'm <span class="highlight">Girish</span> 👋</h1>
+      <p class="subtitle">A passionate <strong>DevOps Engineer</strong> on a cloud-powered mission 🚀</p>
+
+      <div class="section">
+        <h2>🧠 Skills</h2>
+        <ul class="skills">
+          <li>🐧 Linux & Networking</li>
+          <li>📡 FreeRADIUS / LDAP / Zabbix</li>
+          <li>🐳 Docker / NGINX / PostgreSQL</li>
+          <li>⚙️ CI/CD & GitHub Actions</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>📬 Contact</h2>
+        <p>Email: <a href="mailto:girish@example.com">girish@example.com</a></p>
+        <p>
+          GitHub: 
+          <a href="https://github.com/your-username" target="_blank">
+            <i class="fab fa-github"></i> your-username
+          </a>
+        </p>
+      </div>
+
+      <div class="social-icons">
+        <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:girish@example.com"><i class="fas fa-envelope"></i></a>
+        <!-- Add more as needed -->
+      </div>
+    </div>
   </div>
 </body>
 </html>
